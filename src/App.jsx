@@ -27,7 +27,11 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+        </p>
+        <p>
+          This website has been deployed using ci/cd on gh-pages.
+          Any changes in the main brance will trigger github actions to test and deploy the app on gh-pages.
+        </p>
     </>
   )
 }
